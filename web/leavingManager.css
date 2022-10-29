@@ -1,0 +1,98 @@
+.empRequestContiner{
+    width: 80%;
+    padding: 2%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.empRequestElement{
+    width: 100%;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 10px;
+}
+.requestListTable tr td{
+    width: 250px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+.requestListTable tr td button{
+    width: 100px;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.leavingMNavBtnCon{
+    width: 100%;
+    padding: 0 3% 3% 3%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.leavingMNavBtnCon button{
+    width: 180px;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 1%;
+    cursor: pointer;
+}
+.clickedBtn{
+    background-color: white;
+    border: 2px solid black;
+}
+.unclickedBtn{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.unclickedBtn:hover{
+    background-color: white;
+    color: black;
+}
+.requestViewContainer{
+    width: 50%;
+    margin: 0 auto;
+}
+.leaveRequestUserDetails,.leaveRequestRequestDetails{
+    border:1px solid black;
+    padding: 2%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.leaveRequestbuttonContainer{
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+.leaveRequestbuttonContainer button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.leaveRequestRequestDetails{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.requestStatus{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.requestStatus h1{
+    font-size: 2rem;
+}
+.sPtextHighlight{
+    font-size: 1.5rem;
+}
+.lrvTopic{
+    padding: 3% 0 1% 0;
+}

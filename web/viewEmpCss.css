@@ -1,0 +1,59 @@
+.timeSlotFormContainer{
+    width: 500px;
+    margin: 0 auto;
+}
+.timeSlotFormContainer form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.timeSlotFormContainer form label{
+    width: 100%;
+    margin: 20px 0 10px 0 ;
+}
+.timeInput{
+    width: 100%;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#locationText{
+    width: 100%;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.submitBTN{
+    width: 200px;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+}
+.userDetailsContainer_empview{
+    width: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 1%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.userImagecontainer{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+.userDelConSI{
+    display: flex;
+    flex-direction: column;
+}

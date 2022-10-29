@@ -1,0 +1,66 @@
+.contentContainer{
+    width: 50%;
+    margin: 0 auto;
+}
+.leavingUserDetails{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 50px 0 0 0 ;
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.tableFixedText{
+    color: gray;
+    width: 150px;
+}
+.btnDashboard{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+    width: 200px;
+}
+
+.leavingFormcontainer form{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 50px 0 0 0 ;
+
+    display: flex;
+    flex-direction: column;
+}
+.leavingFormcontainer form label{
+    margin:  0 0 10px 0;
+}
+
+.leavingFormcontainer form textArea{
+    margin:  0 0 10px 0;
+    resize: none;
+    height: 200px;
+    padding: 1%;
+}
+.dateInput{
+    background-color: white;
+    color: black;
+}
+.leaveFormSubmitBtn{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    width: 200px;
+    border-radius: 10px;
+    align-self: center;
+}
+.leaveDateContainer{
+    padding: 2% 0;
+}
+.dateInput{
+    padding: 1%;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
