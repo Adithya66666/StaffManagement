@@ -167,7 +167,7 @@
                                         while(rs_1.next()){
                                             String start = rs_1.getString("start");
                                             String end = rs_1.getString("end");
-                                            String location = rs_1.getString("location");
+                                            String location = rs_1.getString("location");   
 
                                         %>
                                             <tr>
